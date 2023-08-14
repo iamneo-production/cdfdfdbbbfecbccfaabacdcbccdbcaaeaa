@@ -14,7 +14,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 public class AppTest {
 	WebDriver driver = null;
-	String url="http://jqueryui.com/droppable";
+	String url="http://jqueryui.com/droppable/";
 	ChromeOptions options = new ChromeOptions();
 	@BeforeTest
 	public void beforeTest() throws IOException {

@@ -9,49 +9,15 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">4,385</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">5,468</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest</td><td><a href="#m0">testcase_1</a></td><td rowspan="1">1692006239564</td><td rowspan="1">1501</td></tr><tr class="failedeven"><td><a href="#m1">testcase_2</a></td><td rowspan="1">1692006241073</td><td rowspan="1">18</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest</td><td><a href="#m2">testcase_3</a></td><td rowspan="1">1692006241094</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest</td><td><a href="#m0">testcase_2</a></td><td rowspan="1">1692006469881</td><td rowspan="1">798</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest</td><td><a href="#m1">testcase_1</a></td><td rowspan="1">1692006467964</td><td rowspan="1">1915</td></tr><tr class="passedeven"><td><a href="#m2">testcase_3</a></td><td rowspan="1">1692006470682</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest#testcase_1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
-from tab crashed
-  (Session info: chrome=114.0.5735.133)
-Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;
-System info: host: &apos;cdfdfdbbbfecbccfaabacdcbccdbcaaeaa-0&apos;, ip: &apos;10.80.19.74&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.107+&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [37349131392f79368799a47d3940c6bf, get {url=http://jqueryui.com/droppable}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.oJptED}, goog:chromeOptions: {debuggerAddress: localhost:39287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.19.74:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.80.19.74:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.19.74:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 37349131392f79368799a47d3940c6bf
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:50)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
-	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.testcase_1(AppTest.java:30)
+<h2>Test</h2><h3 id="m0">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest#testcase_2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Drop here] but found [Dropped!]
+	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.testcase_2(AppTest.java:53)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest#testcase_2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;
-System info: host: &apos;cdfdfdbbbfecbccfaabacdcbccdbcaaeaa-0&apos;, ip: &apos;10.80.19.74&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.107+&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [37349131392f79368799a47d3940c6bf, findElement {using=class, value=demo-frame}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.oJptED}, goog:chromeOptions: {debuggerAddress: localhost:39287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.19.74:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.80.19.74:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.19.74:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 37349131392f79368799a47d3940c6bf
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:50)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.testcase_2(AppTest.java:38)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest#testcase_1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">ai.iamneo.testing.Testing_Selenium_TestNg.AppTest#testcase_3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
